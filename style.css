@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: #eff5f5;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #181823;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f8a70;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #fc7300;
+}
+
+header a {
+  padding: 2.5%;
+  font-size: 85%;
+  font-family: "Belanosima", sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+  color: #181823;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header a:hover {
+  color: #eff5f5;
+  transform: scale(120%);
+  transition-duration: 0.25s;
+}
+.inicio {
+  display: flex;
+  width: 0.3%;
+  position: fixed;
+}
+.inicio :hover {
+  color: #1f8a70;
+
+  transform: scale(120%);
+  transition-duration: 0.25s;
+}
+
+#titulo .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url("img/fachada colegio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#titulo h1 {
+  font-family: "Belanosima", sans-serif;
+  font-size: 300%;
+  color: #00425a;
+  text-shadow: #fc7300 3px 3px 3px;
+  position: absolute;
+  text-align: center;
+  box-sizing: content-box;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#titulo img {
+  width: 100vw;
+  background-image: url("img/fachada colegio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 1.5em;
+}
+
+h2 {
+  font-size: 180%;
+  font-family: "Belanosima", sans-serif;
+  color: #00425a;
+  text-shadow: #fc7300 1px 1px 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  width: 100vw;
+  background-image: url("img/quienesSomos-p.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 1.5em;
+}
+
+p {
+  display: inline-block;
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  color: #1f8a70;
+  font-size: 110%;
+  margin-left: 4%;
+}
+#porque-elegirnos {
+  margin-top: 2em;
+}
+a {
+  text-align: center;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #181823;
+}
+p {
+  display: inline-block;
+  font-size: 100%;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  color: #1f8a70;
+  font-size: 110%;
+  margin-left: 4%;
+}
+
+.propuestas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 1em;
+  margin-right: 10%;
+  margin-left: 2%;
+}
+
+.propuestas img {
+  width: 180px;
+  height: 80px;
+  border-radius: 20px;
+  border-style: outset;
+  box-shadow: 10px 10px 8px rgba(5, 5, 5, 0.44);
+}
+
+.propuestas img :hover {
+  transform: scale(120%);
+  transition-duration: 0.25s;
+}
+
+b {
+  margin-top: 1.1rem;
+  font-size: 1.2rem;
+  color: #181823;
+  text-shadow: 6px 6px 4px rgba(227, 224, 224, 0.954);
+  text-align: left;
+}
+
+article {
+  display: inline;
+  width: 45%;
+  height: 300px;
+  margin-top: 0.5em;
+}
+
+ul {
+  color: #181823;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+ul {
+  margin: 2em;
+  color: #181823;
+  font-size: large;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+li {
+  color: #181823;
+  font-weight: 500;
+  font-size: small;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  gap: 3%;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  margin-left: 10%;
+}
+
+.buttons {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5em;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fc7300;
+  color: #eff5f5;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+.mapa {
+  min-width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.mapa h3 {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-size: 110%;
+  color: #1f8a70;
+  text-align: center;
+  margin: auto;
+}
+
+footer h3 {
+  font-family: "Belanosima", sans-serif;
+  color: #1f8a70;
+  text-shadow: #fc7300 1px 1px 1px;
+  text-decoration: underline;
+  font-size: 170%;
+  text-align: center;
+}
+button {
+  margin-left: 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 80%;
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: 2px solid rgba(2, 34, 6, 0.3);
+  box-shadow: 1px 1px 10px rgba(7, 12, 31, 0.5);
+  color: #eff5f5;
+  background-color: #1f8a70;
+}
+button:hover {
+  background-color: #fc7300;
+  transform: scale(1.3);
+}
+
+small {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: #181823;
+}
+
+@media screen and (min-width: 320px) {
+  b {
+    font-size: small;
+  }
+  p {
+    font-size: 70%;
+  }
+  h4 {
+    font-size: small;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .propuestas ul {
+    margin-left: 0;
+  }
+
+  .propuestas ul {
+    font-size: medium;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  footer {
+    flex-wrap: wrap;
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      box-sizing: content-box;
+    }
+    .propuestas ul {
+      margin-block-start: 0.2em;
+      margin-block-end: 0.2em;
+      margin-left: 0;
+    }
+
+    .propuestas {
+      display: grid;
+      gap: 1em;
+      margin-right: 10%;
+    }
+
+    .propuestas img {
+      width: 150px;
+      height: 65px;
+      border-radius: 20px;
+      border-style: outset;
+      box-shadow: 10px 10px 8px rgba(5, 5, 5, 0.44);
+    }
+
+    footer {
+      flex-direction: row;
+      margin-left: auto;
+      overflow: hidden;
+    }
+  }
+}
