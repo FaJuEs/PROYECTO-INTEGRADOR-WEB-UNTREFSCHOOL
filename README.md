@@ -26,3 +26,11 @@ A la espera de sus opiniones, los saludo desde Tucumán.
 Fabiana Escudero
 
  
+
+31/7/2023
+
+Hola Profe! Espero que se encuentre bien.
+Creo, que pude subsanar los inconvenientes que tuve antes para actualizar el repositorio con los cambios del footer, títulos y responsive en 768px que me marcó.
+Espero ahora sí, haber entendido bien la dinámica de Git.
+
+Fabiana
