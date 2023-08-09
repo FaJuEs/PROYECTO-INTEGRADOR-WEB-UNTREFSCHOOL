@@ -224,7 +224,7 @@ footer {
   gap: 3%;
   align-items: center;
   justify-content: center;
-  align-content: space-around;
+  align-content: space-evenly;
   margin-left: 10%;
 }
 
@@ -379,6 +379,8 @@ small {
       flex-direction: row;
       margin-left: auto;
       overflow: hidden;
+      align-content: space-evenly;
+     /* margin-left: 20%;*/
     }
   }
 }
